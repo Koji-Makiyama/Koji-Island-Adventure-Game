@@ -49,9 +49,9 @@ def path(status):
                      "\nto get some water enter '3'\n")
     if response == '1':
         fishing(status)
-    else if response == '2':
+    elif response == '2':
         berries(status)
-    else if response == '3':
+    elif response == '3':
         fountain(status)
     else:
         path(status)
